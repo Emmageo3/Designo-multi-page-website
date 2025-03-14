@@ -40,7 +40,7 @@ section{
 }
 
 .banner{
-    background-image: url("/images/banneer.svg");
+    background-image: url("https://emmageo3.github.io/Designo-multi-page-website/images/banneer.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -101,7 +101,7 @@ section{
 
 .projects .project{
     width: 50%;
-    background-image: url('/images/project-cover-1.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
@@ -117,7 +117,7 @@ section{
 }
 
 .projects .project:hover{
-    background-image: url('/images/project-cover-1-hover.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-1-hover.svg');
 }
 
 .projects .project h1{
@@ -154,19 +154,19 @@ section{
 }
 
 .projects .project.app{
-    background-image: url('/images/project-cover-2.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-2.svg');
 }
 
 .projects .project.app:hover{
-    background-image: url('/images/project-cover-2-hover.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-2-hover.svg');
 }
 
 .projects .project.graphic{
-    background-image: url('/images/project-cover-3.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-3.svg');
 }
 
 .projects .project.graphic:hover{
-    background-image: url('/images/project-cover-3-hover.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/project-cover-3-hover.svg');
 }
 
 .values{
@@ -203,7 +203,7 @@ section{
 }
 
 .intouch{
-    background-image: url('/images/intouch.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/intouch.svg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -323,7 +323,7 @@ footer .bottom .content p{
 }
 
 .page-title{
-    background-image: url(/images/intouch.svg);
+    background-image: url(https://emmageo3.github.io/Designo-multi-page-website/images/intouch.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -422,7 +422,7 @@ footer .bottom .content p{
 
 .about{
     display: flex;
-    background-image: url('/images/about-banner.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/about-banner.svg');
     border-radius: 15px;
 }
 
@@ -457,7 +457,7 @@ footer .bottom .content p{
 }
 
 .talent{
-    background-image: url('/images/talent-bg.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/talent-bg.svg');
     display: flex;
     border-radius: 15px;
     margin: 100px 11%;
@@ -551,7 +551,7 @@ footer .bottom .content p{
 
 .locs .loc .left{
     width: 70%;
-    background-image: url('/images/loc.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/loc.svg');
     background-repeat: no-repeat;
     height: 326px;
     background-size: cover;
@@ -604,7 +604,7 @@ footer .bottom .content p{
 
 .contact{
     display: flex;
-    background-image: url('/images/contact.svg');
+    background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/contact.svg');
     border-radius: 15px;
     height: 480px;
     background-repeat: no-repeat;
