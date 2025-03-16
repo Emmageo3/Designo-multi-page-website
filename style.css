@@ -606,7 +606,7 @@ footer .bottom .content p{
     display: flex;
     background-image: url('https://emmageo3.github.io/Designo-multi-page-website/images/contact.svg');
     border-radius: 15px;
-    height: 480px;
+    height: fit-content;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 55px 95px;
@@ -691,6 +691,14 @@ input::placeholder, textarea::placeholder {
 
 .mobile{
     display: none;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 
 @media (min-width: 700px) and (max-width: 1024px){

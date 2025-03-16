@@ -43,13 +43,20 @@
       <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
     </div>
     <div class="right">
-      <form action="">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email Address">
-        <input type="text" placeholder="Phone">
-        <textarea placeholder="Your Message"></textarea>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Name">
+        <span class="error" id="nameError"></span>
+    
+        <input type="email" id="email" placeholder="Email Address">
+        <span class="error" id="emailError"></span>
+    
+        <input type="text" id="phone" placeholder="Phone">
+    
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <span class="error" id="messageError"></span>
+    
         <div class="leftsid">
-          <button>submit</button>
+            <button type="submit">Submit</button>
         </div>
       </form>
     </div>
@@ -127,5 +134,7 @@
     
 
   </footer>
+
+  <script src="https://emmageo3.github.io/Designo-multi-page-website/script.js"></script>
 </body>
 </html>
