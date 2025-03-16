@@ -122,7 +122,7 @@ section{
 
 .projects .project h1{
     color: #FFF;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 500;
     letter-spacing: 2px;
 }
@@ -682,4 +682,446 @@ input:focus, textarea:focus{
     display: flex;
     align-items: end;
     justify-content: end;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff; 
+    opacity: .5;
+}
+
+@media (min-width: 700px) and (max-width: 1024px){
+    header {
+        margin: 40px 4%;
+    }
+
+    section {
+        margin: 67px 4%;
+    }
+
+    .banner{
+        padding-left: 0;
+        align-items: center;
+        height: 843px;
+    }
+
+    .banner h1{
+        text-align: center;
+        width: 60%;
+        font-size: 48px;
+
+    }
+
+    .banner p{
+        width: 60%;
+        text-align: center;
+    }
+
+    .projects{
+        flex-direction: column;
+        width: 92%;
+    }
+
+    .double{
+        width: 100%;
+    }
+
+    .projects .project{
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .projects .project h1{
+        font-size: 40px;
+    }
+
+    .values{
+        flex-direction: column;
+    }
+
+    .values .item{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 48px;
+    }
+
+    .intouch{
+        flex-direction: column;
+        padding: 57px;
+        gap: 30px;
+        height: fit-content;
+    }
+
+    .intouch .left{
+        text-align: center;
+    }
+
+    .intouch .left h1{
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .intouch a{
+        height: 56px;
+    }
+
+    footer {
+        background: #1D1C1E;
+        padding: 142px 5%;
+        padding-bottom: 100px;
+    }
+
+    .item-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-content h1, .values .item p{
+        text-align: left !important;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards .card{
+        display: flex;
+    }
+
+    .card img{
+        width: 50%;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .card-content{
+        justify-content: center;
+    }
+
+    .projects.app .double{
+        flex-direction: column;
+    }
+
+    .projects.app .double .project{
+        width: 100%;
+    }
+
+    section.about {
+        flex-direction: column-reverse;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+        height: fit-content;
+        background-size: cover;
+        gap: 50px;
+    }
+
+    .about .right{
+        width: 100%;
+    }
+
+    .about .right img{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .about .left h1{
+        text-align: center;
+    }
+
+    .about .left p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .talent{
+        flex-direction: column;
+        height: fit-content;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+        height: fit-content;
+        background-size: cover;
+        gap: 50px;
+    }
+
+    .talent .left img{
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .talent .right{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .talent .right h1{
+        text-align: center;
+    }
+
+    .talent .right p{
+        text-align: center;
+    }
+
+    .talent {
+        margin: 100px 4%;
+    }
+
+    .countries{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .talent.reverse{
+        flex-direction: column;
+    }
+
+    .talent.reverse .left img{
+        border-radius: 15px 15px 0 0;
+    }
+
+    .locs .loc{
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+    }
+
+    .locs .loc .right{
+        width: 100%;
+    }
+
+    .locs .loc .right img{
+        object-fit: cover;
+        height: 320px;
+    }
+
+    .locs {
+        margin: 0 4%;
+    }
+
+    .locs .loc .left{
+        width: 100%;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 4%;
+        height: fit-content;
+        gap: 40px;
+    }
+
+    .contact .left, .contact .left p, .contact .right{
+        width: 100%;
+    }
+
+    
+    
+    
+}
+
+
+@media (max-width: 499px){
+    header{
+        height: 96px;
+        margin: 0;
+        padding: 0 24px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .banner{
+        margin: 0;
+        border-radius: 0;
+        padding: 80px 24px;
+        background-position: left;
+        background-color: #E7816B;
+    }
+
+    .banner h1{
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .banner p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner a{
+        margin: 0 auto;
+    }
+
+    .projects{
+        flex-direction: column;
+        width: calc(100% - 4%* 2);
+    }
+
+    .projects .project{
+        width: 100%;
+        height: 250px;
+    }
+
+    section{
+        margin: 30px 4%;
+    }
+
+    .double{
+        width: 100%;
+    }
+
+    .projects .project h1{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .values{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 65px;
+    }
+
+    .values .item{
+        width: 100%;
+    }
+
+    .intouch{
+        flex-direction: column;
+        height: fit-content;
+        gap: 40px;
+        padding: 30px 20px;
+    }
+
+    .intouch .left h1{
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .intouch .left p{
+        text-align: center;
+        width: 100%;
+    }
+
+    footer .top, footer .top nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    footer .bottom .content h2{
+        text-align: center;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .projects.app .double{
+        flex-direction: column;
+    }
+
+    .projects.app .double .project{
+        width: 100%;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0;
+        background-color: #E7816B;
+        padding-bottom: 60px;
+        gap: 60px;
+    }
+
+    .talent.reverse{
+        flex-direction: column;
+    }
+
+    .about .right img, .talent.reverse .left img{
+        border-radius: 0;
+        object-fit: cover;
+        height: 320px;
+        width: 100%;
+    }
+
+    .about .right{
+        width: 100%;
+    }
+
+    .about .left, .talent .right, .talent.reverse .right{
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+    }
+
+    .talent{
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 60px;
+        border-radius: 0;
+    }
+
+    .talent .left img{
+        border-radius: 0;
+        object-fit: cover;
+        height: 320px;
+        width: 100%;
+    }
+
+    .countries{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .locs{
+        margin: 30px 4%;
+    }
+
+    .locs .loc{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .locs .loc .right{
+        width: 100%;
+    }
+
+    .locs .loc .right img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        object-fit: cover;
+    }
+
+    .locs .loc .left{
+        width: 100%;
+        border-radius: 0;
+        padding: 20px;
+        background-color: #FDF3F0;
+    }
+    
+    
+    
 }
