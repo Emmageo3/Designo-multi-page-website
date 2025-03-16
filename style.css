@@ -1176,6 +1176,10 @@ input::placeholder, textarea::placeholder {
         padding: 24px;
         text-transform: uppercase;
     }
+
+    .nav-links a.active{
+        border-bottom: 1Px solid #fff;
+    }
     
     
 }
